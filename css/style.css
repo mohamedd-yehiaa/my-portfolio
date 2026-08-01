@@ -1046,6 +1046,13 @@ textarea {
   margin-bottom: 14px;
 }
 
+.timeline__job-type {
+  font-size: 0.85em;        /* Scales down proportionally to the role text */
+  font-weight: 400;         /* Lighter weight to create visual contrast */
+  opacity: 0.75;            /* Softens the text so it doesn't compete with the title */
+  margin-left: 4px;         /* Adds a comfortable gap from the preceding text/pipe */
+}
+
 .timeline__details {
   display: flex;
   flex-direction: column;
@@ -1328,8 +1335,8 @@ textarea {
   display: none;
 }
 
-/* Certifications: show max 6 items when collapsed */
-.certifications__grid--collapsed .cert-card:nth-child(n + 7) {
+/* Certifications: show max 3 items when collapsed */
+.certifications__grid--collapsed .cert-card:nth-child(n + 4) {
   display: none;
 }
 

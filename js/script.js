@@ -271,7 +271,7 @@
     btnId: "certificationsExpandBtn",
     wrapperId: "certificationsExpandWrapper",
     itemSelector: ".cert-card",
-    maxVisible: 6,
+    maxVisible: 3,
     collapsedClass: "certifications__grid--collapsed",
     collapsedText: "View All Credentials",
     expandedText: "Show Less",
@@ -285,10 +285,11 @@
     if (!cliText || !cliLogo) return;
 
     var phrases = [
-      "Mohamed Yehia",
-      "Software Engineer",
-      "Cloud & DevOps",
+"Mohamed Yehia",
+      "DevOps Engineer",
+      "Cloud Systems",
       "CI/CD Automation",
+      "IaC Automation"
     ];
 
 
